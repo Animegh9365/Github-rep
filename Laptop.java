@@ -32,7 +32,7 @@ public class Laptop {
 		
 	}
 	
-	//local inner class
+	//local inner class are always written in a method
 	void processorDetails() {
 		class Processor {
 			String processor;
@@ -44,10 +44,12 @@ public class Laptop {
 				System.out.println("The processor is: " + processor);
 			}
 		}
+		// Object creation of the processor class
 		Processor processor = new Processor("i5");
 		processor.displayProcessorDetiails();
 	}
-	
+
+	// Method to display the brand name 
 	void displayLaptopDetials() {
 		System.out.println(brand);
 	}
