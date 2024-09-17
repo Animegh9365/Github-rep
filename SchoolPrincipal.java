@@ -13,6 +13,6 @@ public class SchoolPrincipal {
     }
 
     public void makeAnnouncement() {
-        System.out.println("The pricipal is making an announcement.");
+        System.out.println("The principal is making an announcement.");
     }
 }
